@@ -12,7 +12,7 @@ Launch the TUI
 > sheets budget.csv
 ```
 
-Or, read from stdin:
+Read from stdin:
 
 ```bash
 > sheets <<< ID,Name,Age
@@ -21,33 +21,26 @@ Or, read from stdin:
 3,Charlie,26
 ```
 
-Read a specific cell or range
+Read a specific cell:
 
 ```bash
 > sheets budget.csv B9
 2760
+```
 
-> sheets budget.csv A1:A3
+Or, range:
+
+```bash
+> sheets budget.csv B1:B3
 1200
 950
 810
-
-> sheets budget.csv A1,B1
-Rent,2000
 ```
 
-Write a specific cell or range
+Modify a cell:
 
 ```bash
-> sheets budget.csv B8=20
-
-> sheets budget.csv A1:A3=1200,950,810
-```
-
-You can also batch multiple CLI operations in a single invocation. Queries print CSV-shaped output, and writes are applied in order before the command exits.
-
-```bash
-> sheets budget.csv A1:B2 B3:B4=10,20 B3:B4
+> sheets budget.csv B7=10 B8=20
 ```
 
 ## Navigation
