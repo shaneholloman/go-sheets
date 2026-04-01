@@ -1,4 +1,4 @@
-package main
+package sheets
 
 import (
 	"github.com/charmbracelet/bubbles/cursor"
