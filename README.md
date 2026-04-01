@@ -2,7 +2,9 @@
 
 Spreadsheets in your terminal.
 
-<img width="800" alt="Sheets" src="./examples/demo.gif" />
+<p align="center">
+  <img width="800" src="./examples/demo.gif?raw=true" alt="Sheets" />
+</p>
 
 ## Command Line Interface
 
