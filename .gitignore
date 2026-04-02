@@ -1,3 +1,4 @@
 *.csv
 !examples/budget.csv
 dist/
+/result
