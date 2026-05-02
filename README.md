@@ -4,7 +4,7 @@ Spreadsheets in your terminal.
 
 <br />
 <p align="center">
-<img width="800" src="./examples/demo.gif?raw=true" alt="Sheets" />
+  <img width="750" height="600" alt="demo" src="https://github.com/user-attachments/assets/6531c666-34dd-4616-b341-e0ac9c54ec7c" />
 </p>
 <br />
 
